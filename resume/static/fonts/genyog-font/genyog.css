@@ -1,0 +1,64 @@
+/* Genyog font v1.501 from https://github.com/ButTaiwan/genyog-font */
+
+@font-face {
+    font-family: Genyog;
+    src: url('woff/GenYoGothic-JP-B.woff') format('woff');
+    font-style: normal;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Genyog;
+    src: url('woff/GenYoGothic-JP-EL.woff') format('woff');
+    font-style: normal;
+    font-weight: 200;
+    text-rendering: optimizeLegibility;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Genyog;
+    src: url('woff/GenYoGothic-JP-H.woff') format('woff');
+    font-style: normal;
+    font-weight: 900;
+    text-rendering: optimizeLegibility;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Genyog;
+    src: url('woff/GenYoGothic-JP-L.woff') format('woff');
+    font-style: normal;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Genyog;
+    src: url('woff/GenYoGothic-JP-M.woff') format('woff');
+    font-style: normal;
+    font-weight: 600;
+    text-rendering: optimizeLegibility;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Genyog;
+    src: url('woff/GenYoGothic-JP-N.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Genyog;
+    src: url('woff/GenYoGothic-JP-R.woff') format('woff');
+    font-style: normal;
+    font-weight: 500;
+    text-rendering: optimizeLegibility;
+    font-display: swap;
+}
