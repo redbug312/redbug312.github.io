@@ -1,10 +1,11 @@
 extends /base
 
 block content
-  .ui.grid
+  .ui.middle.aligned.grid
+    .one.wide.column
     .four.wide.column
       img.ui.circular.medium.image(src='static/png/empty.png')
-    .six.wide.column
+    .five.wide.column
       .ui.left.floated.basic.segment
         h1.ui.header 洪崇凱
     .six.wide.column
@@ -54,7 +55,7 @@ block content
         h3.ui.small.header 研究助理──產學研究合作計畫「即時感知資料流路由策略於 TSN 網路」
           .sub.header Rust / Gnuplot
         .ui.bulleted.list
-          .item 修正原有排程演算法錯誤，加入單元測試，確保不會發生訊息碰撞。
+          .item 修正原有排程演算法錯誤，加入單元測試，確保資料流之間不發生衝突。
           .item 重整架構以移除原有 12 處 unsafe 區塊，確保演算法在多執行緒下不發生 data race。
           .item 自動化產生實驗圖表結果，使單元測試、效能測量、實驗重現都能以 CI/CD 完成。
       .center.aligned.two.wide.column
