@@ -4,7 +4,10 @@ export PATH := ${MODULE_PATH}:$(PATH)
 PUG ?= pug --basedir resume/template
 
 .PHONY: build
-build: resume/index.html
+build: resume/en.html resume/zh.html resume/index.html
 
-resume/index.html: resume/template/zh_TW.pug resume/template/base.pug
+resume/index.html: resume/en.html
+	ln -sf $(notdir $^) $@
+
+resume/%.html: resume/template/%.pug resume/template/base.pug
 	$(PUG) < $< > $@

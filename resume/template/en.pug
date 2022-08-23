@@ -1,0 +1,147 @@
+extends /base
+
+block content
+  .ui.middle.aligned.grid
+    .one.wide.column
+    .three.wide.column
+      img.ui.circular.image(src='static/png/empty.png')
+    .six.wide.column
+      h1.ui.left.floated.header Hung,<br>Chung-Kai
+    .six.wide.column
+      .ui.right.floated.segment
+        .ui.compact.list
+          .item
+            i.github.square.large.icon
+            .middle.aligned.content
+              a(href='https://github.com/redbug312' target='_blank') github.com/redbug312
+          .item
+            i.envelope.square.large.icon
+            .middle.aligned.content
+              p redbug312@gmail.com
+          .item
+            i.phone.square.large.icon
+            .middle.aligned.content
+              p (+886) 963825101
+
+  h2.ui.medium.header
+    i.graduation.cap.icon
+    .content Education
+
+  .ui.grid
+    .one.wide.column
+    .fifteen.wide.column
+
+      p.right.floated Jan 2022
+      h3.ui.left.floated.small.header
+        | M.S. in Computer Science and Information Engineering
+        .sub.header National Taiwan University, GPA: 3.95/4.3
+      .ui.clearing.hidden.fitted.divider
+      p
+        | Extracurricular activities:
+        |
+        i Director of tea club
+
+      p.right.floated Jun 2019
+      h3.ui.left.floated.small.header
+        | B.S. in Computer Science and Information Engineering
+        .sub.header National Taiwan University, GPA: 3.97/4.3
+
+  h2.ui.medium.header
+    i.briefcase.icon
+    .content Relevant Experience
+
+  .ui.grid
+    .one.wide.column
+    .fifteen.wide.column
+
+      p.right.floated Jan 2019–Dec 2021
+      h3.ui.left.floated.small.header Graduate Researcher
+        .sub.header Moxa Technologies
+      .ui.clearing.hidden.fitted.divider
+      p
+        | Project:
+        |
+        i Online Stream-Aware Routing Mechanism in TSN Networks
+        br
+        | Tools:
+        |
+        i Rust / Gnuplot
+      .ui.bulleted.list
+        .item
+          | Designed an advanced routing strategy to support reliable
+          | transmissions.
+        .item
+          | Fixed hidden errors in the scheduling algorithm and verified
+          | its correctness.
+        .item
+          | Enabled multi-threading by restructuring code and removing all
+          | unsafe memory accesses.
+
+      p.right.floated Mar 2020–Sep 2020
+      h3.ui.left.floated.small.header Software Developer
+        .sub.header National Taiwan University Orientation Camp
+      .ui.clearing.hidden.fitted.divider
+      p
+        | Tools:
+        |
+        i Python3 / Qt / Flask
+      .ui.bulleted.list
+        .item
+          | Developed Qt-based cross-platform applications that are used by 120
+          | team members.
+        .item
+          | Developed websites with Flask framework, one had been presented in
+          | front of 3000 people in the commencement ceremony.
+
+      p.right.floated Jan 2018–Dec 2018
+      h3.ui.left.floated.small.header Undergraduate Researcher
+        .sub.header Industrial Technology Research Institute
+      .ui.clearing.hidden.fitted.divider
+      p
+        | Project:
+        |
+        i Mobile Edge Computing for Agricultural Disaster Assessment using UAV
+        br
+        | Tools:
+        |
+        i Lua / Android / RxJava
+      .ui.bulleted.list
+        .item
+          | Developed a lightweight server for Jetson TX2 demo board,
+          | memory usage is reduced by maintaining connections on
+          | socket&#8209;level.
+        .item
+          | Assisted in refactoring Android app for UAV remote control,
+          | tasks are dispatched into individual threads.
+
+  h2.ui.medium.header
+    i.keyboard.icon
+    .content Side Projects
+
+  .ui.grid
+    .one.wide.column
+    .fifteen.wide.column
+
+      h3.ui.small.header
+        | markdown-it-multimd-table (96 stars on
+        |
+        a(href='https://github.com/redbug312/markdown-it-multimd-table'
+        target='_blank') GitHub
+        | )
+      p
+        | Tool:
+        |
+        i JavaScript
+      .ui.bulleted.list
+        .item
+          | Extended Markdown parser to support cells merging and list embedding
+          | in Markdown tables.
+        .item
+          | Being dependent by 46 GitHub packages, including note-taking apps
+          |
+          a(href='https://joplinapp.org/' target='_blank') Joplin
+          |
+          | and
+          |
+          a(href='https://js.wiki/' target='_blank') Wiki.js
+          | .
