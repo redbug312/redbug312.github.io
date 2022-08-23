@@ -31,3 +31,7 @@ p.right.floated {
     float: right;
     margin-left: 1em;
 }
+
+p.clearing {
+    clear: both;
+}
