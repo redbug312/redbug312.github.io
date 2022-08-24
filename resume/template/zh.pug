@@ -4,7 +4,7 @@ block content
   .ui.middle.aligned.grid
     .one.wide.column
     .three.wide.column
-      img.ui.circular.image(src='static/png/empty.png')
+      img.ui.circular.image(src='static/images/avatar.jpg')
     .six.wide.column
       h1.ui.left.floated.header 洪崇凱
     .six.wide.column
@@ -63,11 +63,11 @@ block content
       .ui.bulleted.list
         .item
           | 作為畢業論文題目，針對工廠網路設計進階路由策略，讓重要資料流避開
-          | 單點故障。
+          | 任一單點故障。
         .item
           | 解決原先排程演算法的潛在錯誤，並驗證其正確性避免排程衝突。
         .item
-          | 重構程式碼並移除危險記憶體存取，使程式能夠多執行緒正確執行，減少 60%
+          | 重構程式碼並移除危險記憶體存取，使程式能夠多執行緒執行，減少 60%
           | 運行時間。
 
       p.right.floated 2020/03–2020/09
@@ -91,10 +91,11 @@ block content
         | 使用：Lua / Android / RxJava
       .ui.bulleted.list
         .item
-          | 針對 Jetson TX2 開發板設計輕量伺服器。為減少使用資源，直接透過
-          | sockets 維護連線。
+          | 針對 Jetson TX2 開發板設計輕量伺服器。直接透過
+          | sockets 維護連線以減少資源佔用。
         .item
-          | 協助改進遙控無人機的 Android app，將任務分配至個別執行緒避免阻塞。
+          | 協助改進遙控無人機的 Android app，將任務分配至個別執行緒，避免阻塞彼
+          | 此。
 
   h2.ui.medium.header
     i.keyboard.icon
