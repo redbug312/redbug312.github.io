@@ -1,0 +1,138 @@
+extends /base
+
+block content
+  .ui.middle.aligned.grid
+    .one.wide.column
+    .three.wide.column
+      img.ui.circular.image(src='static/images/avatar.jpg')
+    .six.wide.column
+      h1.ui.left.floated.header 洪崇凱
+    .six.wide.column
+      .ui.right.floated.segment
+        .ui.compact.list
+          .item
+            i.github.square.large.icon
+            .middle.aligned.content
+              a(href='https://github.com/redbug312' target='_blank') github.com/redbug312
+          .item
+            i.envelope.square.large.icon
+            .middle.aligned.content
+              p redbug312@gmail.com
+          .item
+            i.phone.square.large.icon
+            .middle.aligned.content
+              p (+886) 963825101
+
+  .ui.grid
+    .one.wide.column
+    .fifteen.wide.column
+      p
+        | 碩班期間研究農業網路、工業網路議題，期待看到蓬勃發展的資訊領域對其他
+        | 領域帶來的革新。<br>擅長 Rust, Python, C++ 等程式語言，熟悉 Linux
+        | 作業系統並作為平日使用。
+
+  h2.ui.medium.header
+    i.graduation.cap.icon
+    .content 學歷
+
+  .ui.grid
+    .one.wide.column
+    .fifteen.wide.column
+
+      p.right.floated 2022/01
+      h3.ui.left.floated.small.header
+        | 資訊工程碩士
+        .sub.header 國立臺灣大學，GPA: 4.08/4.3
+      p.clearing
+        | 畢業論文：針對混合關鍵性工業物聯網應用之時效性網路即時可存活路由策略
+        br
+        | 社團經歷：茶藝研究社長
+
+      p.right.floated 2019/06
+      h3.ui.left.floated.small.header
+        | 資訊工程學士
+        .sub.header 國立臺灣大學，GPA: 3.91/4.3
+
+  h2.ui.medium.header
+    i.briefcase.icon
+    .content 相關經歷
+
+  .ui.grid
+    .one.wide.column
+    .fifteen.wide.column
+
+      p.right.floated 2019/01–2021/12
+      h3.ui.left.floated.small.header 研究助理
+        .sub.header 四零四科技 (Moxa)
+      p.clearing
+        | 產學研究合作計畫「即時感知資料流路由策略於 TSN 網路」
+        br
+        | 使用：Rust / Gnuplot
+      .ui.bulleted.list
+        .item
+          | 作為畢業論文題目，針對工廠網路設計進階路由策略，讓重要資料流避開
+          | 任一單點故障。
+        .item
+          | 解決原先排程演算法的潛在錯誤，並驗證其正確性避免排程衝突。
+        .item
+          | 重構程式碼以移除 data race 可能，確保程式能夠多執行緒正確執行，減少
+          | 60% 運行時間。
+
+      p.right.floated 2020/03–2020/09
+      h3.ui.left.floated.small.header 程式設計
+        .sub.header 國立臺灣大學新生書院
+      p.clearing
+        | 使用：Python3 / Qt / Flask
+      .ui.bulleted.list
+        .item
+          | 以 Qt 框架開發多項跨作業系統的桌面應用，提供籌備團隊約 120 人使用。
+        .item
+          | 以 Flask 框架開發多項全端網頁應用。其中
+          a(href='https://github.com/redbug312/ntuoc13-lottery-machine'
+          target='_blank') 抽獎系統
+          | 用於該年開學典禮活動，在近 3000 人面前展示運作。
+
+      p.right.floated 2018/01–2018/12
+      h3.ui.left.floated.small.header 研究助理
+        .sub.header 工業技術研究院
+      p.clearing
+        | 工研院補助研究計畫「動態邊緣計算於無人機影像之農作物辨識」
+        br
+        | 使用：Lua / Android / RxJava
+      .ui.bulleted.list
+        .item
+          | 針對 Jetson TX2 開發板設計輕量伺服器。直接透過
+          | sockets 維護連線以減少資源佔用。
+        .item
+          | 協助改進遙控無人機的 Android app，將任務分配至個別執行緒，避免阻塞彼
+          | 此。
+
+  h2.ui.medium.header
+    i.keyboard.icon
+    .content 個人專案
+
+  .ui.grid
+    .one.wide.column
+    .fifteen.wide.column
+
+      h3.ui.small.header
+        | markdown-it-multimd-table (99 stars on
+        |
+        a(href='https://github.com/redbug312/markdown-it-multimd-table'
+        target='_blank') GitHub
+        | )
+      p
+        | 使用：JavaScript
+      .ui.bulleted.list
+        .item
+          | 延伸既有 Markdown parser，使原有表格支援進階功能，包括合併儲存格
+          | 、嵌入列表等。
+        .item
+          | 此專案得到 46 個 GitHub packages 引入使用，包括筆記軟體
+          |
+          a(href='https://joplinapp.org/' target='_blank') Joplin
+          |
+          | 和
+          |
+          a(href='https://js.wiki/' target='_blank') Wiki.js
+          | 。

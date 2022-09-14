@@ -1,0 +1,42 @@
+body {
+    /* 018 Cloudy Knoxville from https://webgradients.com */
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    background-attachment: fixed;
+    font-family: Lato, Genyog, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 10pt;
+}
+
+.ui.header {
+    font-family: Lato, Genyog, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+h1.ui.header {
+    font-weight: 500;
+}
+
+h2.ui.header {
+    margin-top: 1.2rem;
+}
+
+h2.ui.header > i.icon {
+    font-size: 1.2em;
+}
+
+h2.ui.header > i.icon + .content {
+    padding-left: 1.45rem;
+}
+
+h3.ui.header > .sub.header {
+    font-weight: 600;
+}
+
+p.right.floated {
+    float: right;
+    margin-left: 1em;
+}
+
+p.clearing {
+    clear: both;
+}

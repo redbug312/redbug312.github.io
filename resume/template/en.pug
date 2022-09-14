@@ -1,0 +1,162 @@
+extends /base
+
+block content
+  .ui.middle.aligned.grid
+    .one.wide.column
+    .three.wide.column
+      img.ui.circular.image(src='static/images/avatar.jpg')
+    .six.wide.column
+      h1.ui.left.floated.header Hung,<br>Chung-Kai
+    .six.wide.column
+      .ui.right.floated.segment
+        .ui.compact.list
+          .item
+            i.github.square.large.icon
+            .middle.aligned.content
+              a(href='https://github.com/redbug312' target='_blank')
+                | github.com/redbug312
+          .item
+            i.envelope.square.large.icon
+            .middle.aligned.content
+              p redbug312@gmail.com
+          .item
+            i.phone.square.large.icon
+            .middle.aligned.content
+              p (+886) 963825101
+
+  .ui.grid
+    .one.wide.column
+    .fifteen.wide.column
+      p
+        | Addressed agricultural/industrial networking issues in graduate
+        | school, keen to see technological innovations in other areas.
+        | Experienced in Rust, Python and C++ languages. Familiar with Linux
+        | operation system as the daily use.
+
+  h2.ui.medium.header
+    i.graduation.cap.icon
+    .content Education
+
+  .ui.grid
+    .one.wide.column
+    .fifteen.wide.column
+
+      p.right.floated Jan 2022
+      h3.ui.left.floated.small.header
+        | M.S. in Computer Science and Information Engineering
+        .sub.header National Taiwan University, GPA: 4.08/4.3
+      p.clearing
+        | Thesis:
+        |
+        i Online Survivable Routing in TSN Networks for Mixed-Criticality IIoT Applications
+        br
+        | Extracurricular activities:
+        |
+        i Director of tea club
+
+      p.right.floated Jun 2019
+      h3.ui.left.floated.small.header
+        | B.S. in Computer Science and Information Engineering
+        .sub.header National Taiwan University, GPA: 3.91/4.3
+
+  h2.ui.medium.header
+    i.briefcase.icon
+    .content Relevant Experience
+
+  .ui.grid
+    .one.wide.column
+    .fifteen.wide.column
+
+      p.right.floated Jan 2019–Dec 2021
+      h3.ui.left.floated.small.header Graduate Researcher
+        .sub.header Moxa Technologies
+      p.clearing
+        | Project:
+        |
+        i Online Stream-Aware Routing Mechanism in TSN Networks
+        br
+        | Tools:
+        |
+        i Rust / Gnuplot
+      .ui.bulleted.list
+        .item
+          | Designed an advanced routing strategy in my
+          | master thesis. The strategy protects critical messages from any
+          | single point of failure in industrial networks.
+        .item
+          | Solved hidden confliction problems in the scheduling algorithm and
+          | verified its correctness.
+        .item
+          | Enabled multi-threads by restructuring code to eliminate data races,
+          | sped up by 60%.
+
+      p.right.floated Mar 2020–Sep 2020
+      h3.ui.left.floated.small.header Software Developer
+        .sub.header National Taiwan University Orientation Camp
+      p.clearing
+        | Tools:
+        |
+        i Python3 / Qt / Flask
+      .ui.bulleted.list
+        .item
+          | Developed Qt-based cross-platform applications that are used by 120
+          | team members.
+        .item
+          | Developed full-stack websites with Flask framework, where the
+          |
+          a(href='https://github.com/redbug312/ntuoc13-lottery-machine'
+          target='_blank') lottery machine
+          |
+          | had been presented in front of 3000 people in the semester opening
+          | ceremony.
+
+      p.right.floated Jan 2018–Dec 2018
+      h3.ui.left.floated.small.header Undergraduate Researcher
+        .sub.header Industrial Technology Research Institute
+      p.clearing
+        | Project:
+        |
+        i Mobile Edge Computing for Agricultural Disaster Assessment using UAV
+        br
+        | Tools:
+        |
+        i Lua / Android / RxJava
+      .ui.bulleted.list
+        .item
+          | Developed a lightweight server for Jetson TX2 demo board,
+          | memory usage is reduced by direct socket controls.
+        .item
+          | Assisted in refactoring Android app for drone remote control,
+          | tasks are dispatched into individual threads.
+
+  h2.ui.medium.header
+    i.keyboard.icon
+    .content Side Projects
+
+  .ui.grid
+    .one.wide.column
+    .fifteen.wide.column
+
+      h3.ui.small.header
+        | markdown-it-multimd-table (99 stars on
+        |
+        a(href='https://github.com/redbug312/markdown-it-multimd-table'
+        target='_blank') GitHub
+        | )
+      p
+        | Tool:
+        |
+        i JavaScript
+      .ui.bulleted.list
+        .item
+          | Extended Markdown parser to support cells merging and list embedding
+          | in Markdown tables.
+        .item
+          | Being dependent by 46 GitHub packages, including note-taking apps
+          |
+          a(href='https://joplinapp.org/' target='_blank') Joplin
+          |
+          | and
+          |
+          a(href='https://js.wiki/' target='_blank') Wiki.js
+          | .
