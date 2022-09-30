@@ -1,7 +1,7 @@
 MODULE_PATH := ./node_modules/.bin
 export PATH := ${MODULE_PATH}:$(PATH)
 
-PUG ?= pug --basedir resume/template
+PUG ?= pug --basedir resume/template --pretty
 
 .PHONY: build
 build: resume/en.html resume/zh.html resume/index.html
